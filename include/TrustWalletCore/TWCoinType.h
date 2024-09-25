@@ -186,6 +186,8 @@ enum TWCoinType {
     TWCoinTypeBlast = 81457,
     TWCoinTypeBounceBit = 6001,
     TWCoinTypeZkLinkNova = 810180,
+    TWCoinTypeAlphachainLive = 20611009,
+    TWCoinTypeSepoliaTestnet = 21155111,
     // end_of_tw_coin_type_marker_do_not_modify
 };
 

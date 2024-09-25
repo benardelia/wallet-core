@@ -47,6 +47,70 @@
       "documentation": "https://github.com/trezor/blockbook/blob/master/docs/api.md"
     }
   },
+
+  {
+    "id": "Alphachain",
+    "name": "Alphachain-Live",
+    "coinId": 20611009,
+    "symbol": "ALP",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivation": [
+      {
+        "path": "m/44'/60'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "chainId": "19611009",
+    "addressHasher": "keccak256",
+    "explorer": {
+      "url": "https://explorer.all.co.tz",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0x9edaf0f7d9c6629c31bbf0471fc07d696c73b566b93783f7e25d8d5d2b62fa4f",
+      "sampleAccount": "0x5bb497e8d9fe26e92dd1be01e32076c8e024d167"
+    },
+    "info": {
+      "url": "https://rpc.all.tz",
+      "source": "https://github.com/ethereum/go-ethereum",
+      "rpc": "https://rpc.all.tz",
+      "documentation": "https://alphachain.all.co.tz/"
+    }
+  },
+
+  {
+    "id": "Sepolia",
+    "name": "Sepolia-Testnet",
+    "coinId": 21155111,
+    "symbol": "ETH",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivation": [
+      {
+        "path": "m/44'/60'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "chainId": "11155111", 
+    "addressHasher": "keccak256",
+    "explorer": {
+      "url": "https://sepolia.etherscan.io",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0x6e7e3b4eae8705890128d7f71ff8ebdcd1347f7b495237e64f0c43e6fb58b1ef",
+      "sampleAccount": "0x2b6edb804fc94a0d548d8bca7dca547c66d2030a"
+    },
+    "info": {
+      "url": "https://ethereum-sepolia.rpc.subquery.network/public",
+      "source": "https://github.com/ethereum/go-ethereum",
+      "rpc": "https://ethereum-sepolia.rpc.subquery.network/public",
+      "documentation": "https://ethereum.org/en/developers/docs/networks/#sepolia"
+    }
+},
+
+
   {
     "id": "litecoin",
     "name": "Litecoin",
